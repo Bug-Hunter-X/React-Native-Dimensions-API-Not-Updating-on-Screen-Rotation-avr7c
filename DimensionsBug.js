@@ -1,0 +1,1 @@
+This error occurs when using the `Dimensions` API in React Native to get screen dimensions. The issue is that the `Dimensions` API only provides the initial dimensions of the screen at the time of the component mount. If the screen orientation changes, `Dimensions.get('window')` will not reflect the change unless the component remounts or a specific event listener is used.
